@@ -1,0 +1,40 @@
+2025-07-28 13:41:07.838 [info] [certificates] Removed 1 expired certificates
+2025-07-28 13:41:08.389 [info] [fetcher] Using Helix fetcher.
+2025-07-28 13:41:08.389 [info] [code-referencing] Public code references are enabled.
+2025-07-28 13:41:08.822 [info] [fetcher] Using Helix fetcher.
+2025-07-28 13:41:58.468 [warning] [relatedFiles] unknown language properties
+2025-07-28 13:41:58.769 [info] [fetchCompletions] Request 39746709-2428-46ed-8966-e4bb82357144 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 254.06554100000358ms
+2025-07-28 13:41:58.814 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-07-28 13:41:59.023 [info] [fetchCompletions] Request 9304ea08-c486-449e-b470-83c293c313fe at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 127.73901099999784ms
+2025-07-28 13:41:59.068 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-07-28 13:42:00.968 [info] [fetchCompletions] Request f3f7e661-0a0f-4d18-89f3-90072b17e149 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 159.00535600000148ms
+2025-07-28 13:42:01.017 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-07-28 13:48:53.874 [info] [fetchCompletions] Request 76ce7425-f421-4027-9d83-6abc5df8925f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 303.359403999988ms
+2025-07-28 13:48:53.924 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-07-28 13:48:54.235 [info] [fetchCompletions] Request 73b5f900-5301-4566-bbfd-8726d69969c6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 209.49011000001337ms
+2025-07-28 13:48:54.352 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-07-28 13:48:54.554 [info] [fetchCompletions] Request 7814d823-6ddb-4438-b489-184881194fe2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 179.98899600002915ms
+2025-07-28 13:48:54.559 [error] [AsyncCompletionManager] [7814d823-6ddb-4438-b489-184881194fe2] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/ember/.vscode/extensions/github.copilot-1.346.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:447:10)
+    at abortSignal (node:internal/abort_controller:433:3)
+    at AbortController.abort (node:internal/abort_controller:466:5)
+    at /home/ember/.vscode/extensions/github.copilot-1.346.0/lib/src/networking.ts:237:19
+    at Dse.invoke (/home/ember/.vscode/extensions/github.copilot-1.346.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/ember/.vscode/extensions/github.copilot-1.346.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at OU.cancel (/home/ember/.vscode/extensions/github.copilot-1.346.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Tse.cancel (/home/ember/.vscode/extensions/github.copilot-1.346.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Wc.cancelRequest (/home/ember/.vscode/extensions/github.copilot-1.346.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Wc.getFirstMatchingRequest (/home/ember/.vscode/extensions/github.copilot-1.346.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/ember/.vscode/extensions/github.copilot-1.346.0/lib/src/ghostText/ghostText.ts:948:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-07-28 13:48:54.703 [info] [fetchCompletions] Request fd133e21-3cdc-461d-b490-90bffa1e0dd6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 143.28684899996733ms
+2025-07-28 13:48:54.744 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-07-28 13:50:41.501 [info] [certificates] Removed 1 expired certificates
+2025-07-28 13:50:42.177 [info] [fetcher] Using Helix fetcher.
+2025-07-28 13:50:42.177 [info] [code-referencing] Public code references are enabled.
+2025-07-28 13:50:42.615 [info] [fetcher] Using Helix fetcher.

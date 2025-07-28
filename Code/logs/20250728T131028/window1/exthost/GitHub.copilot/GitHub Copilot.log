@@ -1,0 +1,32 @@
+2025-07-28 13:10:33.211 [info] [certificates] Removed 1 expired certificates
+2025-07-28 13:10:33.851 [info] [fetcher] Using Helix fetcher.
+2025-07-28 13:10:33.851 [info] [code-referencing] Public code references are enabled.
+2025-07-28 13:10:34.239 [info] [fetcher] Using Helix fetcher.
+2025-07-28 13:10:41.215 [warning] [relatedFiles] unknown language properties
+2025-07-28 13:10:41.476 [info] [fetchCompletions] Request e172cb1b-8848-4bce-a00c-f4de86359aeb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 211.43626999999833ms
+2025-07-28 13:10:41.516 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-07-28 13:10:44.032 [info] [fetchCompletions] Request f198ef37-922f-4b8a-8379-9005133953b4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 147.4355969999997ms
+2025-07-28 13:10:44.155 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-07-28 13:10:44.687 [info] [fetchCompletions] Request 6a372211-f9d8-47ba-b9e2-80dd9a634061 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 142.35745700000007ms
+2025-07-28 13:10:44.745 [error] [AsyncCompletionManager] [6a372211-f9d8-47ba-b9e2-80dd9a634061] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/ember/.vscode/extensions/github.copilot-1.346.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:447:10)
+    at abortSignal (node:internal/abort_controller:433:3)
+    at AbortController.abort (node:internal/abort_controller:466:5)
+    at /home/ember/.vscode/extensions/github.copilot-1.346.0/lib/src/networking.ts:237:19
+    at Dse.invoke (/home/ember/.vscode/extensions/github.copilot-1.346.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/ember/.vscode/extensions/github.copilot-1.346.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at OU.cancel (/home/ember/.vscode/extensions/github.copilot-1.346.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Tse.cancel (/home/ember/.vscode/extensions/github.copilot-1.346.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Wc.cancelRequest (/home/ember/.vscode/extensions/github.copilot-1.346.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Wc.getFirstMatchingRequest (/home/ember/.vscode/extensions/github.copilot-1.346.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/ember/.vscode/extensions/github.copilot-1.346.0/lib/src/ghostText/ghostText.ts:948:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-07-28 13:10:44.873 [info] [fetchCompletions] Request dc3788b1-1fe8-4dd0-ae3c-1391bd77732f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 126.77793600000041ms
+2025-07-28 13:10:44.984 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-07-28 13:10:45.237 [info] [fetchCompletions] Request 0d36dbad-a072-4c92-b58f-d703f25838a1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 246.70513199999914ms
+2025-07-28 13:10:45.495 [info] [streamChoices] solution 0 returned. finish reason: [stop]

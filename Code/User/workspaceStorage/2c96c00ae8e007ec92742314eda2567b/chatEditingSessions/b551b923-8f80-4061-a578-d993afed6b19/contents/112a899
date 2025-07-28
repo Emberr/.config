@@ -1,0 +1,36 @@
+## General Hyprland settings
+#
+# These options control the overall look and feel of your
+# compositor.  Colours reference variables defined by Pywal/Matugen
+# (e.g. $color1) which are loaded in hyprland.conf.  If the colour
+# variables are not defined the defaults will be used.
+
+general {
+    # When resizing, move the border rather than resizing windows
+    resize_on_border = true
+
+    # Gap between windows inside the layout and between the layout and
+    # the screen edge
+    gaps_in = 4
+    gaps_out = 8
+
+    # Border thickness in pixels
+    border_size = 3
+
+    # Colour of active window borders (gradient).
+    col.active_border = $primary $secondary 45deg
+    # Colour of inactive window borders
+    col.inactive_border = rgba(9c8f8088)
+
+    # Default layout: dwindle splits windows logarithmically
+    layout = dwindle
+}
+
+misc {
+    # Disable the default hyprland logo
+    disable_hyprland_logo = true
+    # Disable the random splash screen text
+    disable_splash_rendering = true
+    # Enable focus following mouse
+    focus_on_activate = true
+}

@@ -1,0 +1,12 @@
+2025-07-28 13:11:14.900 [info] Extension host with pid 39352 started
+2025-07-28 13:11:14.900 [info] Skipping acquiring lock for /home/ember/.config/Code/User/workspaceStorage/2c96c00ae8e007ec92742314eda2567b.
+2025-07-28 13:11:14.989 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-28 13:11:15.012 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-28 13:11:15.027 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-07-28 13:11:15.346 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-07-28 13:11:15.375 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-07-28 13:11:15.958 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-28 13:11:16.018 [info] Eager extensions activated
+2025-07-28 13:11:16.019 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-28 13:11:16.021 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-28 13:11:16.035 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'

@@ -1,0 +1,117 @@
+// Waybar configuration for Hyprland
+//
+// This file is written in JSON.  Modules are listed in order
+// corresponding to their placement on the bar.  Many modules support
+// click actions to launch appropriate applications.  Refer to the
+// Waybar wiki for further customisation【960370974381611†L43-L210】【407374397806681†L24-L123】.
+
+{
+  "layer": "top",
+  "position": "top",
+  "height": 32,
+
+  "modules-left": ["hyprland/workspaces", "custom/media"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": [
+    "network",
+    "cpu",
+    "memory",
+    "temperature",
+    "gpu",
+    "disk",
+    "battery",
+    "pulseaudio",
+    "tray",
+    "clock"
+  ],
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
+    "on-click": "activate"
+  },
+
+  "custom/media": {
+    "format": " {stateIcon} {artist} - {title}",
+    "return-type": "json",
+    "max-length": 40,
+    "pause-on-mouse-left-click": true,
+    "exec": "playerctl --player=spotify,%any metadata --format '{\"artist\": \"{{ artist }}\", \"title\": \"{{ title }}\", \"stateIcon\": \"{{#is_playing}}{{/is_playing}}{{^is_playing}}{{/is_playing}}\"}'",
+    "interval": 5
+  },
+
+  "hyprland/window": {
+    "format": "{title}",
+    "max-length": 60,
+    "separate-outputs": true
+  },
+
+  "network": {
+    "format": " {bandwidthDownBits:1}↓ {bandwidthUpBits:1}↑",
+    "format-disconnected": " N/A",
+    "tooltip": true,
+    "tooltip-format": "{ifname}\n{bandwidthDown} down\n{bandwidthUp} up",
+    "on-click": "nm-connection-editor"
+  },
+
+  "cpu": {
+    "interval": 2,
+    "format": " {usage:1}%",
+    "on-click": "kitty -e btop"
+  },
+
+  "memory": {
+    "interval": 5,
+    "format": " {used:1G}/{total:1G}",
+    "on-click": "kitty -e btop"
+  },
+
+  "temperature": {
+    // Path to your temperature sensor; adjust if needed
+    "hwmon-path": "/sys/class/thermal/thermal_zone0/temp",
+    "critical-threshold": 80,
+    "format": " {temperatureC}°C"
+  },
+
+  "gpu": {
+    "interval": 5,
+    "format": " {utilization:2}%",
+    "on-click": "kitty -e nvidia-smi"
+  },
+
+  "disk": {
+    "path": "/",
+    "format": " {used:1G}/{total:1G}"
+  },
+
+  "battery": {
+    "interval": 30,
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "states": {
+      "warning": 20,
+      "critical": 10
+    },
+    "on-click": "xfce4-power-manager-settings"
+  },
+
+  "pulseaudio": {
+    "scroll-step": 2,
+    "format": "{icon} {volume}%",
+    "format-muted": " mute",
+    "on-click": "pavucontrol"
+  },
+
+  "clock": {
+    "format": "{:%Y-%m-%d %H:%M}",
+    "tooltip-format": "<big>{:%A, %B %d, %Y}</big>",
+    "on-click": "gsimplecal"
+  },
+
+  "tray": {
+    "icon-size": 16,
+    "spacing": 6
+  }
+}

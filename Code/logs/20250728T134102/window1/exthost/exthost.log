@@ -1,0 +1,32 @@
+2025-07-28 13:41:04.685 [info] Extension host with pid 5914 started
+2025-07-28 13:41:04.685 [info] Skipping acquiring lock for /home/ember/.config/Code/User/workspaceStorage/2c96c00ae8e007ec92742314eda2567b.
+2025-07-28 13:41:05.069 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-28 13:41:05.091 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-28 13:41:05.111 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-07-28 13:41:05.439 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-07-28 13:41:05.468 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-07-28 13:41:05.786 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-28 13:41:05.901 [info] Eager extensions activated
+2025-07-28 13:41:05.911 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-28 13:41:05.913 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-28 13:41:05.927 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-07-28 13:41:34.675 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-07-28 13:50:33.818 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-28 13:50:33.848 [info] Extension host with pid 5914 exiting with code 0
+2025-07-28 13:50:34.900 [info] Extension host with pid 8736 started
+2025-07-28 13:50:34.900 [info] Skipping acquiring lock for /home/ember/.config/Code/User/workspaceStorage/e09dc81c41f6728a8320ee23283e7511.
+2025-07-28 13:50:34.956 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-28 13:50:34.979 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-28 13:50:35.032 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-07-28 13:50:35.038 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-28 13:50:35.103 [info] Eager extensions activated
+2025-07-28 13:50:35.107 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-28 13:50:35.109 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-28 13:50:39.211 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-07-28 13:50:39.296 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-07-28 13:50:40.680 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-07-28 13:50:55.675 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-07-28 13:54:31.134 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-07-28 13:56:12.745 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-07-28 13:56:12.753 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-07-28 13:56:12.764 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'

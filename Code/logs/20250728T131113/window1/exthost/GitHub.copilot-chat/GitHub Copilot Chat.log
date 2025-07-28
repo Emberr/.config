@@ -1,0 +1,48 @@
+2025-07-28 13:11:15.363 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-07-28 13:11:15.363 [info] Using the Electron fetcher.
+2025-07-28 13:11:15.462 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-07-28 13:11:15.462 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-07-28 13:11:15.462 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-07-28 13:11:15.680 [info] Logged in as Emberr
+2025-07-28 13:11:17.877 [info] Got Copilot token for Emberr
+2025-07-28 13:11:17.882 [info] activationBlocker from 'languageModelAccess' took for 2236ms
+2025-07-28 13:11:18.036 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-07-28 13:11:18.036 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-07-28 13:11:18.051 [info] Registering default platform agent...
+2025-07-28 13:11:18.052 [info] activationBlocker from 'conversationFeature' took for 2409ms
+2025-07-28 13:11:18.223 [info] Fetched model metadata in 341ms e8638246-a6ba-4352-9762-124c6e13d7eb
+2025-07-28 13:11:18.228 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-28 13:16:43.586 [info] message 0 returned. finish reason: [stop]
+2025-07-28 13:16:43.586 [info] request done: requestId: [3a6415b7-0d0f-44d6-b5fc-f213fee67a48] model deployment ID: []
+2025-07-28 13:16:43.838 [info] Latest entry: ccreq:latestrequest.copilotmd
+2025-07-28 13:16:43.838 [info] ccreq:78533b5a.copilotmd | success | copilot-nes-xtab | 527ms | [XtabProvider]
+2025-07-28 13:16:43.968 [info] ccreq:c9b6d3fc.copilotmd | markdown
+2025-07-28 13:16:45.554 [info] ccreq:245e5483.copilotmd | markdown
+2025-07-28 13:16:46.117 [info] message 0 returned. finish reason: [stop]
+2025-07-28 13:16:46.117 [info] request done: requestId: [43a9468d-23c0-454f-af3e-1ad0f0ab91c7] model deployment ID: []
+2025-07-28 13:16:46.118 [info] ccreq:863c30cc.copilotmd | success | copilot-nes-xtab | 359ms | [XtabProvider]
+2025-07-28 13:16:46.788 [info] ccreq:1476a7ff.copilotmd | markdown
+2025-07-28 13:16:47.277 [info] message 0 returned. finish reason: [stop]
+2025-07-28 13:16:47.277 [info] request done: requestId: [5c9419f8-3763-4996-bad1-40b30ce062be] model deployment ID: []
+2025-07-28 13:16:47.277 [info] ccreq:6524f32a.copilotmd | success | copilot-nes-xtab | 278ms | [XtabProvider]
+2025-07-28 13:16:47.884 [info] ccreq:6dcb2e1e.copilotmd | markdown
+2025-07-28 13:18:27.534 [info] ccreq:f746d61d.copilotmd | markdown
+2025-07-28 13:18:27.720 [info] ccreq:ce508a6a.copilotmd | markdown
+2025-07-28 13:18:27.949 [info] ccreq:993f9bd0.copilotmd | markdown
+2025-07-28 13:18:28.114 [info] ccreq:dca926a6.copilotmd | markdown
+2025-07-28 13:18:28.170 [info] ccreq:fb2609f0.copilotmd | markdown
+2025-07-28 13:18:28.195 [info] message 0 returned. finish reason: [stop]
+2025-07-28 13:18:28.195 [info] request done: requestId: [bd4f9837-fa55-4a24-852e-1541c4fe6c0f] model deployment ID: []
+2025-07-28 13:18:28.203 [info] ccreq:fd6244e9.copilotmd | markdown
+2025-07-28 13:18:28.370 [info] ccreq:f4832caa.copilotmd | success | copilot-nes-xtab | 443ms | [XtabProvider]
+2025-07-28 13:18:28.389 [info] ccreq:c20595e1.copilotmd | markdown
+2025-07-28 13:18:28.474 [info] ccreq:af51b278.copilotmd | markdown
+2025-07-28 13:18:28.664 [info] ccreq:acc497b1.copilotmd | markdown
+2025-07-28 13:18:28.921 [info] ccreq:9c99e612.copilotmd | markdown
+2025-07-28 13:18:29.298 [info] message 0 returned. finish reason: [stop]
+2025-07-28 13:18:29.298 [info] request done: requestId: [b17680ec-fca6-497b-a6ac-955cf4cb30fb] model deployment ID: []
+2025-07-28 13:18:29.298 [info] ccreq:33601d93.copilotmd | success | copilot-nes-xtab | 428ms | [XtabProvider]
+2025-07-28 13:18:29.780 [info] message 0 returned. finish reason: [stop]
+2025-07-28 13:18:29.780 [info] request done: requestId: [e77c0daf-0e00-4e03-9889-ee19b7fdb955] model deployment ID: []
+2025-07-28 13:18:29.781 [info] ccreq:7e7fdd03.copilotmd | success | copilot-nes-xtab | 270ms | [XtabProvider]
+2025-07-28 13:18:30.781 [info] ccreq:c034e934.copilotmd | markdown

@@ -1,0 +1,59 @@
+/* Waybar styling using CSS variables derived from Pywal/Matugen colours.  The
+ * `update-colors.sh` script writes a file named `colors.css` into this
+ * directory; you can @import it here so that colours propagate
+ * automatically.
+ */
+
+@import url("./colors.css");
+
+* {
+    font-family: "JetBrains Mono Nerd", monospace;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: @foreground;
+}
+
+#workspaces {
+    padding: 0 4px;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    margin: 0 2px;
+    border-radius: 6px;
+    background: transparent;
+    color: @foreground;
+}
+
+#workspaces button.active {
+    background: @color4;
+    color: @background;
+}
+
+#network, #cpu, #memory, #temperature, #battery, #gpu, #disk, #pulseaudio, #tray, #clock, #custom-media {
+    padding: 0 8px;
+    margin: 0 4px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 6px;
+    color: @foreground;
+}
+
+#pulseaudio.muted {
+    color: @color8;
+}
+
+#battery.warning {
+    color: @color11;
+}
+
+#battery.critical {
+    color: @color1;
+}
+
+#tray > .window {
+    padding: 0 4px;
+}

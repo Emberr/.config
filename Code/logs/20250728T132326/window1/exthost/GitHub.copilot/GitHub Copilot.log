@@ -1,0 +1,5 @@
+2025-07-28 13:23:47.663 [info] [certificates] Removed 1 expired certificates
+2025-07-28 13:23:48.251 [info] [fetcher] Using Helix fetcher.
+2025-07-28 13:23:48.251 [info] [code-referencing] Public code references are enabled.
+2025-07-28 13:23:48.656 [info] [fetcher] Using Helix fetcher.
+2025-07-28 13:24:45.529 [warning] [relatedFiles] unknown language shellscript

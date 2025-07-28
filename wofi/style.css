@@ -1,0 +1,29 @@
+/* Wofi CSS styling
+ * To achieve a frosted glass look we use a translucent background and a
+ * backdrop blur.  Colours can be overwritten by Pywal via the colours file
+ * referenced in the Wofi config. */
+
+window {
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    font-family: "JetBrains Mono Nerd", monospace;
+    font-size: 14px;
+}
+
+#prompt {
+    margin-bottom: 8px;
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+}
+
+#entry {
+    padding: 6px;
+    border-radius: 6px;
+}
+
+#entry:selected {
+    background-color: rgba(255, 255, 255, 0.1);
+}
