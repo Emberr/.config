@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-# Emoji picker wrapper.  Prefer the `wofimoji` utility (GitHub
-# project) if installed; fall back to `wofi-emoji` from the AUR.
+# Emoji picker wrapper.  Prefer the `wofimoji` utility if available,
+# otherwise fall back to `wofi-emoji`.  If neither program is
+# installed, send a low-urgency notification to inform the user.
 
 if command -v wofimoji >/dev/null 2>&1; then
     exec wofimoji "$@"

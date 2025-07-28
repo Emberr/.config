@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
-# A simple power menu implemented with wofi.  Presents a list of
-# actions and performs them based on selection.  Feel free to add
-# additional options such as hibernate or hybrid‑sleep.
+# Simple power menu built with Wofi.  Presents a list of common
+# power actions and performs them based on the user’s selection.
 
 options="Lock\nLogout\nSuspend\nHibernate\nReboot\nShutdown"
 selected=$(echo -e "$options" | wofi --show dmenu --prompt "Power" --height 300 --width 200 --cache-file "$XDG_CACHE_HOME/wofi-power.cache")

@@ -1,9 +1,4 @@
 // Waybar configuration for Hyprland
-//
-// This file is written in JSON.  Modules are listed in order
-// corresponding to their placement on the bar.  Many modules support
-// click actions to launch appropriate applications.  Refer to the
-// Waybar wiki for further customisation【960370974381611†L43-L210】【407374397806681†L24-L123】.
 
 {
   "layer": "top",
