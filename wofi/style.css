@@ -1,37 +1,19 @@
-/* Wofi CSS styling with improved readability and a frosted glass look.
- * Colours from Pywal/Matugen are applied via the `colors` file referenced
- * in wofi/config, but we still set sensible defaults here. */
-
+/* Wofi CSS styling for a spotlight-like launcher */
 window {
-    border-radius: 12px;
-    /* Use a dark, semi‑opaque background with a strong blur to emulate
-     * frosted glass.  The higher alpha improves legibility on light
-     * wallpapers. */
-    background-color: rgba(20, 20, 20, 0.85);
-    backdrop-filter: blur(20px);
-    padding: 12px;
-    font-family: "JetBrains Mono Nerd", monospace;
-    font-size: 14px;
-    color: #dcdcdc;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
 }
-
-#prompt {
-    margin-bottom: 10px;
-    padding: 6px 8px;
-    background-color: rgba(30, 30, 30, 0.6);
-    border-radius: 6px;
-    color: #c0c0c0;
+#input {
+  margin: 12px;
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 6px;
 }
-
-/* Each entry in the list */
 #entry {
-    padding: 8px 6px;
-    border-radius: 6px;
-    background-color: rgba(30, 30, 30, 0.4);
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 4px;
 }
-
-/* Highlight selected entry */
 #entry:selected {
-    background-color: rgba(100, 100, 100, 0.6);
-    color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
 }
