@@ -21,8 +21,8 @@ if [ -z "$WALLPAPER" ]; then
     elif [ -f ~/.config/hypr/hyprpaper.conf ]; then
         # Extract wallpaper path from hyprpaper.conf
         WALLPAPER=$(grep -E '^wallpaper\s*=' ~/.config/hypr/hyprpaper.conf | head -1 | sed 's/^wallpaper\s*=\s*[^,]*,\s*//' | sed 's|\$HOME|'"$HOME"'|g' | xargs)
-    elif [ -f ~/Pictures/wallpapers/desert.jpg ]; then
-        WALLPAPER=~/Pictures/wallpapers/desert.jpg
+    elif [ -f ~/Pictures/wallpapers/wats.jpg ]; then
+        WALLPAPER=~/Pictures/wallpapers/wats.jpg
     fi
 fi
 
